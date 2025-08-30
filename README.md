@@ -1,7 +1,7 @@
 # Tiktok-TechJam-2025-Submission
 submission for tiktok techjam 2025 
 
-Team Members: 1
+Team Members: 1 /n
 Name: Chin Jun Wen
 
 Youtube channel: BakingPeanut
