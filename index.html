@@ -1,0 +1,20 @@
+<!--code written by Chin Jun Wen-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Shield</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Prompt Privacy Leakage Checker</h2>
+    <textarea name="prompt" id="prompt" placeholder="Enter your prompt here"></textarea>
+    <button id="checkBtn">Check</button>
+    <button id="reset">reset</button>
+    <textarea readonly name="result" id="result" placeholder="Redacted prompt will show here"></textarea>
+    <div id="warning">Prompt Warning: sensitive information detected !</div>
+    <button id="copyBtn">copy redacted prompt</button>
+    <script src="pii.js"></script>
+</body>
+</html>
